@@ -1,0 +1,15 @@
+# Summary
+
+[The Art of VA Filter Design](ch00-front-matter.md)
+- [Chapter 1: Fourier theory](ch01-fourier-theory.md)
+- [Chapter 2: Analog 1-pole filters](ch02-analog-1-pole-filters.md)
+- [Chapter 3: Time-discretization](ch03-time-discretization.md)
+- [Chapter 4: State variable filter](ch04-state-variable-filter.md)
+- [Chapter 5: Ladder filter](ch05-ladder-filter.md)
+- [Chapter 6: Nonlinearities](ch06-nonlinearities.md)
+- [Chapter 7: State-space form](ch07-state-space-form.md)
+- [Chapter 8: Raising the filter order](ch08-raising-the-filter-order.md)
+- [Chapter 9: Classical signal processing filters](ch09-classical-signal-processing.md)
+- [Chapter 10: Special filter types](ch10-special-filter-types.md)
+- [Chapter 11: Multinotch filters](ch11-multinotch-filters.md)
+- [History](ch12-history-and-index.md)

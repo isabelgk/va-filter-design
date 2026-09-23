@@ -1,0 +1,342 @@
+# History
+
+The revision numbering is major.minor.bugfix. Pure bugfix updates are not
+listed here.
+
+### 1.0.2 (May 18, 2012)
+
+first public revision
+
+### 1.1.0 (June 7, 2015)
+
+- TSK filters
+- frequency shifters
+- further minor changes
+
+### 2.0.0alpha (May 28, 2018)
+
+- redone: TSK/SKF filters
+- 8-pole ladder filters
+- expanded: nonlinearities
+- expanded: phasers and flangers (now found under the title *multinotch
+  filters*)
+- Butterworth transformations of the 1st and 2nd kinds
+- classical signal processing filters (Butterworth, Chebyshev, elliptic)
+- redone: shelving filters
+- redone: Hilbert transformers
+- crossovers
+- state-space form
+- transient responses
+- many further smaller changes
+
+### 2.1.0 (October 28, 2018)
+
+- generalized ladder filters
+- elliptic filters of order $2^N$ (discussed as order-$2^N$ elliptic rational
+  functions)
+- elliptic shelving filter (and elliptic rational function) midslope
+  steepness derivation
+
+# Index
+
+- 1-pole
+    - Jordan, 37, 278
+- 1-pole filter, 7, 199
+    - transposed, 30
+- 2-pole filter, 95
+- 4-pole filter, 133
+- 8-pole ladder filter, 158
+- allpass filter, 29, 119
+    - SKF, 158
+    - TSK, 158
+- allpass substitution, 92
+- amplitude
+    - elliptic, 351
+    - of oscillations around $\infty$, 344
+- amplitude response, 13, 51
+- analytic filter, 453, 456
+- analytic signal, 453
+- antisaturator, 211
+- arctangent scale, 313
+- bandpass filter, 95, 293, 303
+- barberpole, 502
+- BIBO, 21
+- bilinear transform, 57
+    - inverse, 58
+    - topology-preserving, 81
+    - unstable, 89
+- bisection, 189
+- BLT, 57
+- BLT integrator, *see* trapezoidal integrator
+- Butterworth filter, 103, 286, 294, 319
+    - 1st kind of, 286
+    - 2nd kind of, 294
+- Butterworth transformation, 283, 285
+    - 1st kind of, 286
+    - 2nd kind of, 294
+- canonical form, 79
+- cascade decomposition, 275
+- Chebyshev filter, 337, 344
+    - type I, 337
+    - type II, 344
+- Chebyshev polynomial, 332
+    - double-reciprocated, 344
+    - renormalized, 335
+- comb filter, 493
+- complex exponential, 5
+- complex impedances, 12
+- complex sinusoid, 1
+- controllable canonical form, 271
+- coupled-form resonator, 253
+- crossover, 437
+- cutoff, 8, 14
+    - of a pole, 109
+    - of a zero, 109
+    - parameterization of, 15, 275
+- cutoff modulation, 40, 264
+- damping
+    - in SVF, 100
+    - of a pole, 109
+    - of a zero, 109
+- DC offset, 2
+- degree
+    - of transformation, 383
+- degree equation, 383
+- delayless feedback, 73
+- DF1, 79
+- DF2, 79
+- diagonal form, 247, 278
+- differentiator, 91
+- diode clipper, 208
+- diode ladder filter, 164, 200
+- Dirac delta, 4
+- direct form, 79
+- discrimination factor, 387
+- eigenfunction, 9
+- elliptic filter, 400
+    - minimum Q, 405
+- elliptic function, 351
+    - evaluation of, 374
+    - normalized, 363
+    - normalized-argument, 372
+- elliptic modulus, 350
+- elliptic rational function, 384
+    - normalized, 389
+    - renormalized, 394
+- ellitic integral, 350
+- EMQF, 405
+- equiripple, 309
+- equiripples, 332
+- even roots/poles, 288, 322, 449
+- filter
+    - 1-pole, 7, 199
+    - 2-pole, 95
+    - 4-pole, 133
+    - allpass, 29, 119
+    - analytic, 453, 456
+    - bandpass, 95, 293, 303
+    - Butterworth, 103, 286, 294, 319
+    - comb, 493
+    - elliptic, 405
+    - highpass, 18, 95, 138, 292, 303
+    - highpass TSK, 154
+    - ladder, 133, 275, 305
+    - lowpass, 7, 95, 133, 290, 302
+    - lowpass SKF, 155
+    - lowpass TSK, 154
+    - multimode, 25, 95, 141, 276
+    - multinotch, 487
+    - normalized bandpass, 111
+    - notch, 119
+    - peaking, 121
+    - Sallen-Key, 152, 154
+    - shelving, 27, 118, 410
+    - SKF, 154
+    - stable, 21
+    - tilting, 410
+    - transposed, 30
+    - TSK, 152
+    - unit-gain bandpass, 111
+- fixed-point iteration, 184
+- Fourier integral, 3
+- Fourier series, 2
+- Fourier transform, 3
+- frequency response, 13, 51
+- frequency shifter, 468
+- gain element, 8
+- generalized SVF, 271
+- hard clipper, 177, 198
+- harmonics, 2
+- Hermitian, 3
+- highpass filter, 18, 95, 138, 292, 303
+- Hilbert transform, 453
+- Hilbert transformer, 453, 456
+- hyperbolic functions, 325
+- imaginary Riemann circle, 312
+- instantaneous gain, 75
+- instantaneous offset, 75
+- instantaneous response, 75
+- instantaneous smoother, 85
+- instantaneously unstable
+    - feedback, 85
+- integrator, 8
+    - BLT, *see* integrator, trapezoidal
+    - naive, 47
+    - trapezoidal, 53, 269
+- integratorless feedback, 239
+- Jacobian elliptic function, 351
+    - evaluation of, 374
+    - normalized, 363
+    - normalized-argument, 372
+- Jordan 1-pole, 37, 278
+- Jordan 2-pole, 253, 278
+- Jordan cell, 256
+    - real, 259
+- Jordan chain, 39, 257
+- Jordan normal form, 256
+- ladder filter, 133, 275
+    - 2-pole allpass, 158
+    - 8-pole, 158
+    - bandpass, 146
+    - diode, 164, 200
+    - generalized, 305
+    - highpass, 145
+    - modes of, 141
+    - OTA, 201
+    - transistor, 199
+- Landen transformation, 374
+- Laplace integral, 5
+- Laplace transform, 5
+- linearity, 11
+- Linkwitz-Riley crossover, 439
+- lowpass filter, 7, 14, 95, 133, 290, 302
+- LP to BP substitution, 114, 294
+- LP to BP transformation, 114
+- LP to BS substitution, 117
+- LP to HP substitution, 24
+- LP to HP transformation, 24
+- matrix exponential, 244
+- maximum phase, 24
+- MIMO
+    - SKF, 155
+- minimax approximation, 472, 473
+- minimum phase, 24
+- minimum Q, 405
+- modular angle, 350
+- modulus
+    - ellitpic, 350
+- multimode filter, 25, 95, 141, 276
+- multinotch filter, 487
+- *N*-th degree transformation, 383
+- naive integrator, 47
+- Newton-Raphson method, 186
+- nonstrictly proper, 11
+- normalized bandpass filter, 111
+- notch filter, 119
+- observable canonical form, 273
+- odd roots/poles, 288, 322, 449
+- OTA ladder filter, 201
+- parallel representation, 278
+- partial fraction expansion, 278
+- partials, 2
+- passband, 14, 97, 111
+- peaking filter, 121
+- phase response, 13, 51
+- phase splitter, 468
+- pole, 19, 35, 53
+    - cutoff of, 109
+    - damping of, 109
+- preimage
+    - of a representation, 320
+- prewarping, 62, 115
+- prewarping point, 65
+- principal values, 326
+- quarter period
+    - imaginary, 354
+- quarter-period, 353
+- real diagonal form, 252, 278
+- real Riemann circle, 310
+- reference gain, 431
+- Remez algorithm, 472
+- representation, 320
+- resonance, 100, 106
+- Riemann circle
+    - imaginary, 312
+    - real, 310
+- Riemann sphere, 309
+    - rotations of, 314
+- rolloff, 15, 21
+- Sallen-Key
+    - highpass, 155
+    - lowpass, 155
+    - MIMO, 155
+- Sallen-Key filter, 152, 154
+- saturator, 174
+    - asymptotically linear, 176
+    - bounded, 175
+    - bounded-range, 175
+    - compact-range monotonic, 175
+    - slower than linear, 176
+    - unbounded, 176
+    - unbounded-range, 176
+- selectivity factor, 387
+- selfoscillation, 101, 128, 136, 180
+- selfoscillation point, 129
+- serial cascade, 275
+- shelving band, 417
+- shelving filter, 118, 410
+    - 1-pole, 27
+- SKF, 154
+    - allpass, 158
+    - highpass, 155
+    - lowpass, 155
+    - MIMO, 155
+- soft clipper, 177
+- spectrum, 2
+- stability, 21, 35, 269
+    - time-varying, 42
+- state space, 239
+- state-space form, 237
+- state-variable filter, 95
+- steady state, 33
+- steady-state response, 33
+- stopband, 14, 97
+- substitution
+    - LP to BP, 114, 294
+    - LP to BS, 117
+    - LP to HP, 24
+- summator, 8
+- SVF, 95
+    - generalized, 271
+- tilting filter, 410
+- time-invariant, 10
+- time-varying system, 42
+- topology, 42
+- topology-preserving transform, 59, 81
+- TPBLT, 81
+- TPT, 59, 81
+- transfer function, 11, 33, 50, 182
+- transfer matrix, 242, 267
+- transformation
+    - LP to BP, 114
+    - LP to HP, 24
+- transient response, 33, 245, 268
+- transistor ladder filter, 199
+- transition band, 14, 97, 417
+- transposition, 30, 243
+- trapezoidal integrator, 53, 269
+- trigonometric functions, 325
+- TSK
+    - allpass, 158
+- TSK filter, 152
+    - highpass, 154
+    - lowpass, 154
+- unit delay, 48
+- unit-gain bandpass filter, 111
+- waveshaper, 173
+- *z*-integral, 46
+- *z*-transform, 46
+- zero, 19, 53
+    - cutoff of, 109
+    - damping of, 109
+- zero-delay feedback, 74, 183

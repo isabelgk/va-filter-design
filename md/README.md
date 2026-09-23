@@ -1,0 +1,152 @@
+# The Art of VA Filter Design (Markdown edition)
+
+Markdown + LaTeX transcription of Vadim Zavalishin, *The Art of VA Filter Design*, rev. 2.1.2 (February 14, 2020). Math uses `$...$` / `$$...$$`; equation numbers use `\tag{}`; figures are cropped from the PDF into `figures/`. Book typos are kept as printed.
+
+- [The Art of VA Filter Design](ch00-front-matter.md)
+  - Preface to revision 2.0.0alpha
+- [Chapter 1: Fourier theory](ch01-fourier-theory.md)
+  - 1.1 Complex sinusoids
+  - 1.2 Fourier series
+  - 1.3 Fourier integral
+  - 1.4 Dirac delta function
+  - 1.5 Laplace transform
+  - Summary
+- [Chapter 2: Analog 1-pole filters](ch02-analog-1-pole-filters.md)
+  - 2.1 RC filter
+  - 2.2 Block diagrams
+  - 2.3 Transfer function
+  - 2.4 Complex impedances
+  - 2.5 Amplitude and phase responses
+  - 2.6 Lowpass filtering
+  - 2.7 Cutoff parameterization
+  - 2.8 Highpass filter
+  - 2.9 Poles and zeros
+  - 2.10 LP to HP substitution
+  - 2.11 Multimode filter
+  - 2.12 Shelving filters
+  - 2.13 Allpass filter
+  - 2.14 Transposed multimode filter
+  - 2.15 Transient response
+  - 2.16 Cutoff as time scaling
+  - Summary
+- [Chapter 3: Time-discretization](ch03-time-discretization.md)
+  - 3.1 Discrete-time signals
+  - 3.2 Naive integration
+  - 3.3 Naive lowpass filter
+  - 3.4 Block diagrams
+  - 3.5 Transfer function
+  - 3.6 Trapezoidal integration
+  - 3.7 Bilinear transform
+  - 3.8 Cutoff prewarping
+  - 3.9 Zero-delay feedback
+  - 3.10 Implementations
+  - 3.11 Direct forms
+  - 3.12 Transient response
+  - 3.13 Instantaneously unstable feedback
+  - 3.14 Other replacement techniques
+  - Summary
+- [Chapter 4: State variable filter](ch04-state-variable-filter.md)
+  - 4.1 Analog model
+  - 4.2 Resonance
+  - 4.3 Poles
+  - 4.4 Digital model
+  - 4.5 Normalized bandpass filter
+  - 4.6 LP to BP/BS substitutions
+  - 4.7 Further filter types
+  - 4.8 Transient response
+  - Summary
+- [Chapter 5: Ladder filter](ch05-ladder-filter.md)
+  - 5.1 Analog model
+  - 5.2 Feedback and resonance
+  - 5.3 Digital model
+  - 5.4 Feedback shaping
+  - 5.5 Multimode ladder filter
+  - 5.6 HP ladder
+  - 5.7 BP ladder
+  - 5.8 Sallen-Key filters
+  - 5.9 8-pole ladder
+  - 5.10 Diode ladder
+  - Summary
+- [Chapter 6: Nonlinearities](ch06-nonlinearities.md)
+  - 6.1 Waveshaping
+  - 6.2 Saturators
+  - 6.3 Feedback loop saturation
+  - 6.4 Nonlinear zero-delay feedback equation
+  - 6.5 Iterative methods
+  - 6.6 Approximate methods
+  - 6.7 2nd-order saturation curves
+  - 6.8 Tabulation
+  - 6.9 Saturation in 1-pole filters
+  - 6.10 Multinonlinear feedback
+  - 6.11 Antisaturators
+  - 6.12 Asymmetric saturation
+  - 6.13 Antialiasing of waveshaping
+  - Summary
+- [Chapter 7: State-space form](ch07-state-space-form.md)
+  - 7.1 Differential state-space form
+  - 7.2 Integratorless feedback
+  - 7.3 Transfer matrix
+  - 7.4 Transposition
+  - 7.5 Basis changes
+  - 7.6 Matrix exponential
+  - 7.7 Transient response
+  - 7.8 Diagonal form
+  - 7.9 Real diagonal form
+  - 7.10 Jordan normal form
+  - 7.11 Ill-conditioning of diagonal form
+  - 7.12 Time-varying case
+  - 7.13 Discrete-time case
+  - 7.14 Trapezoidal integration
+  - Summary
+- [Chapter 8: Raising the filter order](ch08-raising-the-filter-order.md)
+  - 8.1 Generalized SVF
+  - 8.2 Serial cascade representation
+  - 8.3 Parallel representation
+  - 8.4 Cascading of identical filters
+  - 8.5 Butterworth transformation
+  - 8.6 Butterworth filters of the 1st kind
+  - 8.7 Butterworth filters of the 2nd kind
+  - 8.8 Generalized ladder filters
+  - Summary
+- [Chapter 9: Classical signal processing filters](ch09-classical-signal-processing.md)
+  - 9.1 Riemann sphere
+  - 9.2 Arctangent scale
+  - 9.3 Rotations of Riemann sphere
+  - 9.4 Butterworth filter revisited
+  - 9.5 Trigonometric functions on complex plane
+  - 9.6 Chebyshev polynomials
+  - 9.7 Chebyshev type I filters
+  - 9.8 Chebyshev type II filters
+  - 9.9 Jacobian elliptic functions
+  - 9.10 Normalized Jacobian elliptic functions
+  - 9.11 Landen transformations
+  - 9.12 Elliptic rational functions
+  - 9.13 Elliptic filters
+  - Summary
+- [Chapter 10: Special filter types](ch10-special-filter-types.md)
+  - 10.1 Reciprocally symmetric functions
+  - 10.2 Shelving and tilting filters
+  - 10.3 Fixed-slope shelving
+  - 10.4 Variable-slope shelving
+  - 10.5 Higher-order shelving
+  - 10.6 Band shelving
+  - 10.7 Elliptic shelving
+  - 10.8 Crossovers
+  - 10.9 Even/odd allpass decomposition
+  - 10.10 Analytic filter
+  - 10.11 Phase splitter
+  - 10.12 Frequency shifter
+  - 10.13 Remez algorithm
+  - 10.14 Numerical construction of phase splitter
+  - Summary
+- [Chapter 11: Multinotch filters](ch11-multinotch-filters.md)
+  - 11.1 Basic multinotch structure
+  - 11.2 1-pole-based multinotches
+  - 11.3 2-pole-based multinotches
+  - 11.4 Inversion
+  - 11.5 Comb filters
+  - 11.6 Feedback
+  - 11.7 Dry/wet mixing
+  - 11.8 Barberpole notches
+  - Summary
+- [History](ch12-history-and-index.md)
