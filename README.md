@@ -1,10 +1,10 @@
 # va-filter-design
 
-## build
+An `mdbook` mirror of "The Art of VA Filter Design" By Vadim Zavalishin. The original PDF is available from the [KVR Audio Forums](https://www.kvraudio.com/forum/viewtopic.php?p=4930418&sid=045d19ec7894d0296ecd634cffb11fff#p4930418).
 
-```sh
-mdbook build --open
-```
+## Transcription errors
+
+If you find any transcription errors, please file an issue or submit a PR.
 
 ## Copyright
 
