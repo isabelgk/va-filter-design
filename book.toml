@@ -1,0 +1,18 @@
+[book]
+title = "The Art of VA Filter Design"
+authors = ["Vadim Zavalishin"]
+language = "en"
+src = "md"
+
+[build]
+build-dir = "book"
+
+[preprocessor.katex]
+after = ["links"]
+
+[preprocessor.katex-tilde]
+command = "python3 katex-tilde.py"
+after = ["katex"]
+
+[output.html]
+site-url = "/va-filter-design/"
